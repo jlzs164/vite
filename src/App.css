@@ -1,0 +1,64 @@
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+  width: 100%;
+  background-color: #6f84b1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.cabecalho h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  width: 90%;
+  max-width: 700px;
+  margin: 35px auto;
+}
+
+.cartao,
+.tecnologias {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #193061;
+}
+
+p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lista span {
+  background-color: #c8d8f5;
+  color: #193061;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+}
